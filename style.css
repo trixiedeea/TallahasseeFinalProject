@@ -1,4 +1,160 @@
 body {
-    background-color: #6032d5;
+    background-color: #1556ab;
     color: #ffffff;
+}
+
+.navbar {
+    list-style: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+    border: 2px solid #ffffff;
+    background-color: #1692a2;
+    justify-content: space-evenly;
+    align-items: stretch;
+    justify-content: center;
+    display: flex;
+    z-index: 1000;
+}
+
+.navbar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar > li {
+    background-color: #1692a2;
+    border-radius: 5px;
+    margin: 10px 5px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar > li > a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar a:hover {
+    color: #FFFFFF;
+    background-color: #15427A;
+    transform: scale(1.25);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.navbar > li:hover > .historyList {
+    display: block;
+    border-radius: 5px;
+}
+
+.historyList {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1692a2;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    min-width: 120px;
+}
+
+.historyList a {
+    display: block;
+    padding: 6px 9px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.historyList a:hover {
+    color: #ffffff;
+    background-color: #15427A;
+    transform: scale(1.25);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.navbar > li:hover > .politicsList {
+    display: block;
+    border-radius: 5px;
+}
+
+.politicsList {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1692a2;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    min-width: 120px;
+}
+
+.politicsList a {
+    display: block;
+    padding: 6px 9px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.politicsList a:hover {
+    color: #ffffff;
+    background-color: #15427A;
+    transform: scale(1.25);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.navbar > li:hover > .zombielandList {
+    display: block;
+    border-radius: 5px;
+}
+
+.zombielandList {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1692a2;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    min-width: 120px;
+}
+
+.zombielandList a {
+    display: block;
+    padding: 6px 9px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.zombielandList a:hover {
+    color: #ffffff;
+    background-color: #15427A;
+    transform: scale(1.25);
+    font-weight: bold;
+    border-radius: 5px;
 }

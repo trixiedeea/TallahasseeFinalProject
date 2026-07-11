@@ -7,6 +7,9 @@
    
 </head>
 <body>
+    <section id="home">
+        <h1>Welcome to Tallahassee</h1>
+    </section>
     
 </body>
 <?php include('./footer.php');?>
