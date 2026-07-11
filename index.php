@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Tallahassee</title>
-<?php include('navBar.php');?>
+<?php include('./header.php');?>
    
 </head>
 <body>
     
 </body>
+<?php include('./footer.php');?>
 </html>
