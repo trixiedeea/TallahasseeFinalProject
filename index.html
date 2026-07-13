@@ -11,28 +11,28 @@
         <header>
             <nav>
                 <ul class="navbar">
-                    <li class="navList"><a href="#home">Home</a></li>
-                    <li class="navList"><a href="#history">History</a>
+                    <li class="navList"><a href="./index.html#home">Home</a></li>
+                    <li class="navList"><a href="./History/historyIndex.html">History</a>
                         <ul class="historyList">
-                            <li><a href="#founding">Founding of Tallahassee</a></li>
-                            <li><a href="#thirties">1830s</a></li>
-                            <li><a href="#forties">1840s-1860s</a></li>
-                            <li><a href="#reconstruction">Reconstruction, 1880s and 1890s</a></li>
+                            <li><a href="./History/historyIndex.html#founding">Founding of Tallahassee</a></li>
+                            <li><a href="./History/historyIndex.html#thirties">1830s</a></li>
+                            <li><a href="./History/historyIndex.html#forties">1840s-1860s</a></li>
+                            <li><a href="./History/historyIndex.html#reconstruction">Reconstruction, 1880s and 1890s</a></li>
                         </ul>
                     </li>
-                    <li class="navList"><a href="#politics">Politics</a>
+                    <li class="navList"><a href="./Politics/politicsIndex.html">Politics</a>
                         <ul class ="politicsList">
-                            <li><a href="politicalCenter">Florida's Political Center</a></li>
-                            <li><a href="policy">Civic Engagement and Public Policy</a></li>
-                            <li><a href="future">The Future of Politics in Tallahassee</a></li>
+                            <li><a href="./Politics/politicsIndex.html#politicalCenter">Florida's Political Center</a></li>
+                            <li><a href="./Politics/politicsIndex.html#policy">Civic Engagement and Public Policy</a></li>
+                            <li><a href="./Politics/politicsIndex.html#future">The Future of Politics in Tallahassee</a></li>
                         </ul>
                     </li>
-                    <li class="navList"><a href="#zombieland">Zombieland</a>
+                    <li class="navList"><a href="./Zombieland/zombielandIndex.html">Zombieland</a>
                         <ul class="zombielandList">
-                            <li><a href="#appearence">Appearence, Personality and Quirks</a></li>
-                            <li><a href="#preZombieland">Pre-Zombieland And Zombieland</a></li>
-                            <li><a href="#doubletap">Doubletap</a></li>
-                            <li><a href="#albuquerque">Albuquerque</a></li>
+                            <li><a href="./Zombieland/zombielandIndex.html#appearence">Appearence, Personality and Quirks</a></li>
+                            <li><a href="./Zombieland/zombielandIndex.html#preZombieland">Pre-Zombieland And Zombieland</a></li>
+                            <li><a href="./Zombieland/zombielandIndex.html#doubletap">Doubletap</a></li>
+                            <li><a href="./Zombieland/zombielandIndex.html#albuquerque">Albuquerque</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -66,50 +66,53 @@
 
 
 
-<form action="https://gophp.w3spaces.com/contactA.php" method="post">
-    <fieldset>
-        <legend class="form-title">Contact Us</legend>
-        <p class="form-description">
-            Leave us a message!
-        </p>
+        <form action="https://gophp.w3spaces.com/contactA.php" method="post">
+            <fieldset>
+                <legend class="form-title">Contact Us</legend>
+                <p class="form-description">
+                    Leave us a message!
+                </p>
 
-        <div class="formGrid">
-            <fieldset class="innerField">
-                <label for="name">Name:</label><br>
-                <input type="text" name="name" id="name">
+                <div class="formGrid">
+                    <fieldset class="innerField">
+                        <label for="name">Name:</label><br>
+                        <input type="text" name="name" id="name">
+                    </fieldset>
+                    <fieldset class="innerField">
+                        <label for="email">Email:</label><br>
+                        <input type="text" name="email" id="email">
+                    </fieldset>
+                    <fieldset class="innerField">
+                        <legend>Message</legend>
+                        <label for="messege">Messege:</label><br>
+                        <textarea id="messege" name="messege" rows="6" cols="40" placeholder="Type your message here..."></textarea>
+                    <fieldset class="websiteScore">
+                        <label for="score">
+                            Rate The Site 1-10:
+                        </label>
+                        <br><br>
+                        <input
+                            type="range" id="score" name="score"
+                            min="0" max="10" value="5"
+                            oninput="scoreOutput.value = this.value">
+                        <output id="scoreOutput">
+                            5
+                        </output>
+                    </fieldset>
+                </div>
+                <div class="buttonRow">
+                    <button type="submit">
+                        Submit
+                    </button>
+                    <button type="reset">
+                        Reset
+                    </button>
+                </div>
             </fieldset>
-            <fieldset class="innerField">
-                <label for="email">Email:</label><br>
-                <input type="text" name="email" id="email">
-            </fieldset>
-            <fieldset class="innerField">
-                <legend>Message</legend>
-                <label for="messege">Messege:</label><br>
-                <textarea id="messege" name="messege" rows="6" cols="40" placeholder="Type your message here..."></textarea>
-            <fieldset class="websiteScore">
-                <label for="score">
-                    Rate The Site 1-10:
-                </label>
-                <br><br>
-                <input
-                    type="range" id="score" name="score"
-                    min="0" max="10" value="5"
-                    oninput="scoreOutput.value = this.value">
-                <output id="scoreOutput">
-                    5
-                </output>
-            </fieldset>
-        </div>
-        <div class="buttonRow">
-            <button type="submit">
-                Submit
-            </button>
-            <button type="reset">
-                Reset
-            </button>
-        </div>
-    </fieldset>
-</form>
+        </form>
+
+        <footer><br><br><br>
+            <p >Copyright &copy; 2026 - All rights reserved Traci Dirom Info 240 Final Project</p>
+        </footer>
 </body>
-<?php include('./footer.php');?>
 </html>
