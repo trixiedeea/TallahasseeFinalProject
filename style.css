@@ -1,5 +1,5 @@
 body {
-    background-color: #1556ab;
+    background-color: #075072;
     color: #ffffff;
 }
 
@@ -18,6 +18,18 @@ body {
     justify-content: center;
     display: flex;
     z-index: 1000;
+}
+
+a:link {
+    color: #2cd1eb;
+}
+
+a:visited {
+    color: #2cd1eb;
+}
+
+a:hover {
+    color: #347e89;
 }
 
 .navbar a {
@@ -48,7 +60,7 @@ body {
 
 .navbar a:hover {
     color: #FFFFFF;
-    background-color: #cc7d3b;
+    background-color: #0b8eb2;
     transform: scale(1.25);
     font-weight: bold;
     border-radius: 5px;
@@ -67,7 +79,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #f1c38b;
+    background-color: #044d84;
     border: 2px solid #ffffff;
     border-radius: 10px;
     min-width: 120px;
@@ -82,7 +94,7 @@ body {
 
 .homeList a:hover {
     color: #ffffff;
-    background-color: #cc7d3b;
+    background-color: #0cbbeb;
     transform: scale(1.25);
     font-weight: bold;
     border-radius: 5px;
@@ -101,7 +113,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #f1c38b;
+    background-color: #044d84;
     border: 2px solid #ffffff;
     border-radius: 10px;
     min-width: 120px;
@@ -116,7 +128,7 @@ body {
 
 .historyList a:hover {
     color: #ffffff;
-    background-color: #cc7d3b;
+    background-color: #0cbbeb;
     transform: scale(1.25);
     font-weight: bold;
     border-radius: 5px;
@@ -135,7 +147,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #f1c38b;
+    background-color: #044d84;
     border: 2px solid #ffffff;
     border-radius: 10px;
     min-width: 120px;
@@ -150,7 +162,7 @@ body {
 
 .politicsList a:hover {
     color: #ffffff;
-    background-color: #cc7d3b;
+    background-color: #0cbbeb;
     transform: scale(1.25);
     font-weight: bold;
     border-radius: 5px;
@@ -169,7 +181,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #f1c38b;
+    background-color: #044d84;
     border: 2px solid #ffffff;
     border-radius: 10px;
     min-width: 120px;
@@ -184,7 +196,7 @@ body {
 
 .zombielandList a:hover {
     color: #ffffff;
-    background-color: #cc7d3b;
+    background-color: #0cbbeb;
     transform: scale(1.25);
     font-weight: bold;
     border-radius: 5px;
@@ -204,7 +216,7 @@ h2 {
 .homeScreen {
     width: 100%;
     max-width: 100%;
-    background-color: #ef6a1d;
+    background-color: rgba(11, 85, 98, 0);
 }
 
 .historyScreen {
@@ -248,3 +260,90 @@ h2 {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.tableWrapper {
+    overflow-x: auto;
+}
+
+.footer {
+    font-size: 0.8em;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+}
+
+table {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-color: #098bb7;
+    margin: 0.3em;
+    border-collapse: collapse;
+}
+
+th {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 0.2em;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+td {
+    padding: 0.2em;
+    border: 2px solid #ffffff;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#form {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.innerField {
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.websiteScore {
+    margin: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;           
+  width: 100%;                       
+}
+
+.left-text {
+    text-align: left;
+    padding-right: 1em;
+}
+
+.right-text {
+    text-align: right;
+    padding-left: 30em;
+}
+
+.footer-text {
+    display: flex;
+    color: #ffffff;
+    background-image: url("images/skyline.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
