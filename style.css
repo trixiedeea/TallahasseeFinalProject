@@ -3,6 +3,12 @@ body {
     color: #ffffff;
 }
 
+.startScreen {
+    width: 100%;
+    max-width: 100%;
+    background-color: rgba(11, 85, 98, 0);
+}
+
 .navbar {
     list-style: none;
     border-radius: 10px;
@@ -347,3 +353,14 @@ footer {
     background-repeat: no-repeat;
 }
 
+h1 {
+    color: #eae86d;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+iframe {
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-bottom: 3em;
+}
