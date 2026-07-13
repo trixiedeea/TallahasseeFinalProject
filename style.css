@@ -190,30 +190,61 @@ body {
     border-radius: 5px;
 }
 
-.homeScreen {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    border-radius: 10px;
-    min-width: 120px;
-}
-
-.homeContainer {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    border-radius: 10px;
-    min-width: 120px;
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 3em;
 }
 
 h2 {
     color: #ffffff;
     text-align: center;
-    font-size: 2em;
-    margin: 0;
-    padding: 0;
 }
 
+.homeScreen {
+    width: 100%;
+    max-width: 100%;
+    background-color: #ef6a1d;
+}
+
+.historyScreen {
+    width: 100%;
+    max-width: 100%;
+    background-color: rgba(11, 85, 98, 0);
+}
+
+.politicsScreen {
+    width: 100%;
+    max-width: 100%;
+    background-color: rgba(11, 85, 98, 0);
+}
+
+.zombieScreen {
+    width: 100%;
+    max-width: 100%;
+    background-color: rgba(11, 85, 98, 0);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .container section:first-child {
+        grid-column: span 2;
+    }
+    .container section:nth-child(2) {
+        grid-column: span 1;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
