@@ -267,10 +267,20 @@ h2 {
     }
 }
 
-img {
+.imagesRight {
+    display: flex;
     max-width: 100%;
     height: auto;
     display: block;
+    float: right;
+}
+
+.imagesLeft {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    float: right;
 }
 
 .tableWrapper {
