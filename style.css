@@ -54,6 +54,40 @@ body {
     border-radius: 5px;
 }
 
+.navbar > li:hover > .homeList {
+    display: block;
+    border-radius: 5px;
+}
+
+.homeList {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f1c38b;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    min-width: 120px;
+}
+
+.homeList a {
+    display: block;
+    padding: 6px 9px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.homeList a:hover {
+    color: #ffffff;
+    background-color: #cc7d3b;
+    transform: scale(1.25);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
 .navbar > li:hover > .historyList {
     display: block;
     border-radius: 5px;
