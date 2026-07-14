@@ -268,19 +268,17 @@ h2 {
 }
 
 .imagesRight {
-    display: flex;
     max-width: 100%;
     height: auto;
-    display: block;
     float: right;
+    margin-left: 0.3rem;
 }
 
 .imagesLeft {
-    display: flex;
     max-width: 100%;
     height: auto;
-    display: block;
-    float: right;
+    float: left;
+    margin-right: 0.3rem;
 }
 
 .tableWrapper {
@@ -371,8 +369,8 @@ h1 {
 
 .videoContainer {
    width: 100%;
-   max-width: 900px;
-   margin: 0 auto;
+   max-width: 600px;
+   margin: auto;
 }
 
 iframe {
